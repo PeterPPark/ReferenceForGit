@@ -22,3 +22,5 @@ class Comment(models.Model):
     create_date=models.DateTimeField(auto_now_add=True)
     modify_date=models.DateTimeField(auto_now=True)
 
+class Test(models.Model):
+    title = models.CharField(max_length=100)
